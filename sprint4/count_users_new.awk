@@ -9,7 +9,7 @@ BEGIN {
 {
 # validate your input
         if (NF != 11) {
-                printf("I was expecting 10 columns, but found %d for the output of ls. Please tweak the script\n",NF);
+                printf("I was expecting 11 columns, but found %d for the output of ls. Please tweak the script\n",NF);
 				exit;
 #	ignore
 	} else {
